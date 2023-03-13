@@ -6,5 +6,3 @@ Bueno si xdxdxdxd
 noo
 ### el timido 
 
-## DANIEL HUACHUHUILLCA
-hola a toods
