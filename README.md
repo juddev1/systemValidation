@@ -5,5 +5,3 @@ This is example of college assist system
 Bueno si xdxdxdxd
 noo
 
-## DANIEL HUACHUHUILLCA
-hola a toods
