@@ -1,4 +1,4 @@
 # systemValidation
 This is example of college assist system
 
-#Ya pero Somos o no Somos?
+# Ya pero Somos o no Somos?
