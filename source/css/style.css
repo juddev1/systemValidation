@@ -9,6 +9,7 @@
 
 body{
 	overflow: hidden;
+	background-color: #edeef6;
 }
 .navbar{
 	height: 6rem;
