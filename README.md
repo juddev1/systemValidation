@@ -1,19 +1,16 @@
 # systemValidation
 This is example of college assist system
 
-# Ya pero Somos o no Somos?
-Bueno si xdxdxdxd
-noo
-pipipi
-### Johann Yovera (Alias: "El Terror de pa poket")
+# En la primera semana estamos creando el diseño básico de nuestra página
+Hasta el momento contamos con:
+-login
+-marcarasistencia
+### Integrantes:
+Johann Yover
+Jose Ramos
+Luis Montes
+Juan Huachuhuillca
 
 
 
-
-
-
-
-
-### el timido 
-hola crack''''
 
