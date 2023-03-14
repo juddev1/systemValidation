@@ -1,9 +1,6 @@
 body{
     background-color: #edeef6;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     min-height: 100vh;
     margin: 0;
 }

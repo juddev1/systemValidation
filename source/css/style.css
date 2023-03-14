@@ -16,7 +16,7 @@ body{
 	overflow: hidden;
 	background-color: #040b20;
 	display: flex;
-	position: fixed;
+	position: sticky;
 	z-index: 10;
 }
 
