@@ -8,3 +8,12 @@ pipipi
 ### Johann Yovera (Alias: "El Terror de pa poket")
 
 
+
+
+
+
+
+
+### el timido 
+hola crack''''
+
