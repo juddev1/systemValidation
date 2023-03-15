@@ -31,7 +31,28 @@ body{
     padding: 50px 100px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    text-align: center;
+    text-align: left;
+}
+
+th, td{
+    padding: 20px;
+}
+
+tr:hover td {
+    background-color: rgb(139, 139, 240);
+    color: #fff;
+}
+
+.boton{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+thead{
+    background-color: rgb(72, 72, 233);
+    border-bottom: solid 5px #0F362D;
+    color: white;
 }
 
 .table-fixed{
@@ -45,3 +66,21 @@ ul{
 }
 
 
+/* Pantalla */
+.doc{
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: justify;
+    border-radius: 5px;
+    background-color: gainsboro;
+
+}
+
+.titulo{
+    text-align: center;
+}
+
+.titulo2{
+    text-align: center;
+}
