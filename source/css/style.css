@@ -8,8 +8,11 @@
 }
 
 body{
-	overflow: hidden;
+	overflow: auto;
 	background-color: #edeef6;
+}
+a{
+	text-decoration: none;
 }
 .c-navbar{
 	height: 6rem;
@@ -49,7 +52,6 @@ body{
 }
 
 .nav-links li a{
-	text-decoration: none;
 	color: #ffff;
 	font-size: 20px;
 	margin: 0 0.7vw;
@@ -63,7 +65,7 @@ body{
     position: relative;
 }
 
-.nav-links li a::before {
+.nav-links li a::after {
     content: "";
     display: block;
     height: 3px;
@@ -72,8 +74,87 @@ body{
     position: absolute;
     transition: all ease-in-out 250ms;
     margin: 0 0 0 10%;
+    border-radius: 5px;
 }
 
-.nav-links li a:hover::before{
+.nav-links li a:hover::after{
     width: 80%;
+}
+/**/
+main{
+	width: 85%;
+	margin: auto;
+}
+
+.main-title{
+	margin: 1rem auto 1rem auto;
+}
+
+.section-title{
+	padding-bottom: 20px;
+}
+/**/
+.news-card{
+	display: flex;
+	flex-wrap: inherit;
+/*	height: 250px;*/
+	border-radius: 20px;
+  	box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
+  	overflow: hidden;
+  	position: relative;
+  	color: #bbb;
+  	max-height: 350px;
+  	margin-bottom: 30px;
+}
+
+.dark{
+	background-color: #040b20;
+}
+
+.light{
+	background-color: #ffff;
+}
+.news-card picture{
+	display: contents;
+}
+
+.news-card picture img{
+	object-fit: cover;
+	max-width: 425px;
+}
+
+.news-text{
+	padding: 1rem;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+.news-title{
+	color: white;
+	font-size: 25px;
+}
+
+.news-title:hover{
+	color: #61DAFB;
+}
+
+.bar{
+	margin: 5px auto 0px auto;
+    content: "";
+    display: block;
+    height: 3px;
+    width: 10%;
+    background-color: #61DAFB;
+/*    position: relative;*/
+    transition: all ease-in-out 250ms;
+    border-radius: 5px;
+}
+
+.news-title:hover + .bar {
+    width: 100% !important;
+  }
+
+.date-time{
+	margin: 10px 0;
 }
