@@ -3,6 +3,7 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     min-height: 100vh;
     margin: 0;
+    background-image: url(https://raw.githubusercontent.com/juddev1/systemValidation/main/source/img/senati.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
