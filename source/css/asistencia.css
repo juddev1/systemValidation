@@ -3,6 +3,10 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     min-height: 100vh;
     margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 .modal-container{
@@ -43,10 +47,19 @@ tr:hover td {
     color: #fff;
 }
 
+/* Boton */
+
 .boton{
     display: block;
     margin-right: auto;
     margin-left: auto;
+    background-color: #040b20;
+    border-color: #040b20;
+    padding: 10px 12px;
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    
+    
 }
 
 thead{
@@ -74,13 +87,20 @@ ul{
     text-align: justify;
     border-radius: 5px;
     background-color: gainsboro;
-
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    opacity: 0.9;
 }
 
 .titulo{
     text-align: center;
+    color: #fff;
 }
 
 .titulo2{
     text-align: center;
+}
+
+
+.txt{
+    padding: 10px 100px;
 }
