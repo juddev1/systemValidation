@@ -88,7 +88,7 @@ ul{
     text-align: justify;
     border-radius: 5px;
     background-color: gainsboro;
-    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 12px 16px rgba(4, 0, 255, 0.932);
     opacity: 0.9;
 }
 
@@ -104,4 +104,30 @@ ul{
 
 .txt{
     padding: 10px 100px;
+}
+
+/* user */
+
+.doc picture img{
+    padding-left: 460px;
+    border-radius: 10px;
+}
+
+/* Boton de asistencia */
+.btnasis{
+    background-color: #28a745;
+    border-color: #28a745;
+    padding: 5px 20px;
+    border-radius: 10px;
+    /* transform: translateY(-15px); */
+    box-shadow: 0 12px 16px rgba(37, 223, 20, 0.726);
+}
+
+.btnfalt{
+    background-color: #ffc107;
+    border-color: #ffc107;
+    padding: 5px 20px;
+    border-radius: 10px;
+    /* transform: translateY(-15px); */
+    box-shadow: 0 12px 16px rgba(220, 223, 20, 0.726);
 }
