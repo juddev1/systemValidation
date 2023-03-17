@@ -6,7 +6,8 @@ body {
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
-	background-color: #edeef6;
+	background: url(../img/fondosenati.jpg);
+	background-size: cover;
 }
 
 
@@ -35,6 +36,17 @@ input[type="password"] {
 	padding: 10px;
 	border: solid;
 	border-width: 1.5px;
+	border-radius: 5px;
+	border-color: gray;
+	margin-bottom: 20px;
+}
+
+input:focus {
+	width: 100%;
+	padding: 10px;
+	outline: none;
+	border: solid;
+	border-width: 2px;
 	border-radius: 5px;
 	border-color: gray;
 	margin-bottom: 20px;
