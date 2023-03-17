@@ -6,7 +6,8 @@ body {
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
-	background-color: #edeef6;
+	background: url(../img/fondosenati.jpg);
+	background-size: cover;
 }
 
 
