@@ -1,5 +1,5 @@
 # System Validation
-This is example of college assist system
+This is an example of college assist system
 
 # De que trata?
 Este proyecto recrea un sistema de asistencia para una institución educativa, en este caso se eligio como referencia a SENATI.
