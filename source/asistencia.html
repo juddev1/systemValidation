@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Asistencia</title>
+    <link rel="stylesheet" href="css/asistencia.css">
+    <link rel="icon" type="img/png" href="img/affiliate.png">
+</head>
+<body>
+    <div class="c-navbar">
+        <a class="logo" href="#">
+            <img src="svg/senati.svg">
+        </a>
+        <ul class="nav-links">
+            <li>
+                <a href="inicio.html">Inicio</a>
+            </li>
+            <li>
+                <a href="asistencia.html">Asistencia</a>
+            </li>
+            <li>
+                <a href="#">?</a>
+            </li>
+        </ul>
+    </div>
+    <br>
+    <br>
+      <h1 class="titulo">PORTAL DEL DOCENTE  </h1>
+      <br>
+      <br>
+      <main>
+        <article class="doc">
+          <br>
+          <h2 class="titulo2">DATOS DEL DOCENTE</h2>
+          <br>
+          <picture>
+            <img src="img/user.png" alt="">
+          </picture>
+          <p class="txt">NOMBRE: JUAN DANIEL</p>
+          <br>
+          <P class="txt">APELLIDO: HUACHUHUILLCA PARIONA</P>
+          <br>
+          <P class="txt">CURSO A CARGO: LEGUAJE DE PROGRAMACION AVANZADO </P>
+          <br>
+          <p class="txt">NUMERO DE AULA: LAB07-148</p> 
+          <br>
+          <br>
+        </article>
+      </main>
+      <br>
+      <br>
+      <button class="boton" id="open">TOMAR LISTA</button>
+      <br>
+      <br>
+      <h1 class="titulo">CURSOS DE CAPACITACION PARA EL DOCENTE</h1>
+      <br>
+      <br>
+      <!-- 1 -->
+      <div class="container"> <!-- Clase Container -->
+        <div class="card"> <!-- Clase card -->
+          <figure>
+            <img src="img/curso1.png" alt="">
+          </figure>
+          <div class="contenido"> <!-- Clase contenido -->
+            <h3>ESPECIALISTA EN CCNA ROUTING AND SWITCHING V6.0</h3>
+            <p>CREDITOS: 3</p>
+            <p>Lab: 645 Piso 2</p>
+            <a href="https://www.senati.edu.pe/cursos/especialista-en-ccna-routing-and-switching-v60" target="_blank">TOMAR CURSO</a>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="card">
+          <figure>
+            <img src="img/curso2.png" alt="">
+          </figure>
+          <div class="contenido">
+            <h3>SOPORTE Y MANTENIMIENTO DE EQUIPOS DE COMPUTACIÓN</h3>
+            <p>CREDITOS: 3</p>
+            <p>Lab: 89 Piso 1</p>
+            <a href="https://www.senati.edu.pe/especialidades/tecnologias-de-la-informacion/soporte-y-mantenimiento-de-equipos-de-computacion" target="_blank">TOMAR CURSO</a>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="card"> 
+          <figure>
+            <img src="img/curso3.png" alt="">
+          </figure>
+          <div class="contenido">
+            <h3>INGENIERÍA DE CLOUD COMPUTING Y DATA CENTER</h3>
+            <p>CREDITOS: 3</p>
+            <p>Lab: 145 Piso 3</p>
+            <a href="https://www.senati.edu.pe/especialidades/tecnologias-de-la-informacion/ingenieria-de-cloud-computing-y-data-center" target="_blank">TOMAR CURSO</a>
+          </div>
+        </div>
+      </div>
+    <div>
+    <div class="modal-container" id="modal_container">
+      <div class="tabla">
+          <table class="table-fixed">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">APELLIDO</th>
+                  <th scope="col">NOMBRE</th>
+                  <th scope="col">ASISTENCIA</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>YOVERA SANCHEZ</td>
+                  <td>JOHANN JACKIR</td>
+                  <td>
+                      <button class="btnasis"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                          <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                        </svg></button>
+                      <button class="btnfalt"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                          <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+                        </svg></button>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>HUACHUHUILLCA PARIONA</td>
+                  <td>JUAN DANIEL</td>
+                  <td>
+                      <button class="btnasis"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                          <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                        </svg></button>
+                      <button class="btnfalt"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                          <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+                        </svg></button>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>MONTES CANCHANYA</td>
+                  <td>LUIS DANIEL</td>
+                  <td>
+                      <button class="btnasis"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                          <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                        </svg></button>
+                      <button class="btnfalt"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                          <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+                        </svg></button>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>RAMOS QUISPE</td>
+                  <td>JOSE GUILLERMO</td>
+                  <td>
+                      <button class="btnasis"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
+                          <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
+                        </svg></button>
+                      <button class="btnfalt"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                          <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+                        </svg></button>
+                  </td>
+                </tr>
+              </tbody>
+          </table>
+          <p></p>
+          <br>
+          <br>
+          <button class="boton" id="close">CERRAR</button>
+      </div>
+    </div>
+  </div>
+    <script src="js/asistencia.js"></script>
+</body>
+</html>

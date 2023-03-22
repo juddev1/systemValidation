@@ -1,18 +1,20 @@
-# systemValidation
-This is example of college assist system
+# System Validation
+This is an example of college assist system
 
-# Ya pero Somos o no Somos?
-Bueno si xdxdxdxd
-noo
-pipipi
-### Johann Yovera (Alias: "El Terror de pa poket")
+# De que trata?
+Este proyecto recrea un sistema de asistencia para una institución educativa, en este caso se eligio como referencia a SENATI.
+En proximas actualizaciones se integrará una base de datos.
+# En la primera semana estamos creando el diseño básico de nuestra página
+Hasta el momento contamos con:
+*login
+*inicio
+*marcarasistencia
+### Integrantes:
+*Johann Yover
+*Jose Ramos
+*Luis Montes
+*Juan Huachuhuillca
 
 
 
-
-
-
-
-
-### el timido 
 
