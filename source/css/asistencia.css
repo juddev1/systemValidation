@@ -128,7 +128,6 @@ ul{
     display: flex;
     max-width: 2100px;
   }
-
   .card{
     width: 100%;
     margin: 20px;
@@ -140,22 +139,18 @@ ul{
     transition: all 400ms ease;
     
   }
-
   .card:hover{
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.9);
   }
-
   .card img{
     width: 100%;
     height: auto;
     border-radius: 5px;
   }
-  
   .card .contenido{
     padding: 15px;
     text-align: center;
   }
-
   .card .contenido p{
     line-height: 1.5;
     color: #7C99AC;
@@ -165,7 +160,6 @@ ul{
     font-weight: 400;
     margin-bottom: 15px;
   }
-
   .card .contenido a{
     text-decoration: none;
     display: inline-block;
@@ -177,7 +171,6 @@ ul{
     border-radius: 4px;
     transition: all 400ms ease;
   }
-
   .card .contenido a:hover{
     background: #fff;
     color: #040b20;
