@@ -67,8 +67,75 @@ table {
       right: 20px;
     }
     
-    .logo {
+    .logosenati{
       width: 250px;
       height: 100px;
       background-color: #2E3192
+    }
+
+    /*  div de menu */
+    .c-navbar{
+      height: 6rem;
+      width: 100vw;
+      overflow: hidden;
+      background-color: #040b20;
+      display: flex;
+      position: sticky;
+      z-index: 10;
+    }
+    .logo{
+      display: flex;
+      align-content: center;
+      float: left;
+      width: 140px;
+      margin-left: 20px;
+    }
+    
+    .logo img:hover{
+      filter: invert(35%) sepia(12%) saturate(4320%) hue-rotate(168deg) brightness(108%) contrast(97%);
+    }
+    
+    .c-navbar a img{
+      width: 100%;
+    }
+    
+    .nav-links{
+      display: flex;
+      list-style: none;
+      width: 88vw;
+    /*	padding: 0 0.7vw;*/
+      justify-content: space-evenly;
+      align-items: center;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    
+    .nav-links li a{
+      color: #ffff;
+      font-size: 20px;
+      margin: 0 0.7vw;
+    }
+    
+    .nav-links li a:hover{
+      color: #61DAFB;
+    }
+    
+    .nav-links li {
+        position: relative;
+    }
+    
+    .nav-links li a::after {
+        content: "";
+        display: block;
+        height: 3px;
+        width: 0%;
+        background-color: #61DAFB;
+        position: absolute;
+        transition: all ease-in-out 250ms;
+        margin: 0 0 0 10%;
+        border-radius: 5px;
+    }
+    
+    .nav-links li a:hover::after{
+        width: 80%;
     }
